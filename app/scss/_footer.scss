@@ -1,0 +1,23 @@
+footer {
+	color: #000;
+	background-color: #f0f0f0;
+	padding: 40px 0 45px 0;
+
+	.social__link,
+	.footer__link {
+		color: #000;
+	}
+
+	.footer-left {
+		.footer__link + .footer__link {
+			margin-left: 30px;
+		}
+	}
+
+	.footer-right {
+		.social__link {
+
+			margin-left: 30px;
+		}
+	}
+}
