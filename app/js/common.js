@@ -4,7 +4,7 @@ $(function() {
 		const btn = $(this);
 		const loader = btn.find('.spinner-border');
 		$.ajax({
-			url: '/data.html',
+			url: '/minimo/app/data.html',
 			type: 'GET',
 			beforeSend: function() {
 				btn.attr('disabled', true);
