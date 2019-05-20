@@ -1,10 +1,10 @@
 $(function() {
-	// Adding handler on loading posts button
+	// Add handler to loading posts button
 	$('.loading-posts').on('click', function() {
 		const btn = $(this);
 		const loader = btn.find('.spinner-border');
 		$.ajax({
-			url: '../data.html',
+			url: '../app/data.html',
 			type: 'GET',
 			beforeSend: function() {
 				btn.attr('disabled', true);
